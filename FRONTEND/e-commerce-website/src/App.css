@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+.container{
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: auto;
+}
+
+.navbar{
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  padding: 16px 0;
+  color: #fff;
+}
+
+.navbar .hamberger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.navbar #navheading{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.navbar .Input{
+  width: 40%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.navbar #search{
+  width: 90%;
+  padding-left: 8px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  
+}
+
+.navbar .fa-magnifying-glass{
+  width: 10%;
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  padding: 8px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar .icons {
+  font-size: 20px;
+}
+
+.navbar .icons .fa-cart-shopping{
+  margin-left: 12px;
+}

@@ -1,0 +1,15 @@
+.item{
+    margin-top: 8px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,rgb(0, 255, 229), black) ;
+}
+
+.item i{
+    font-size: 32px;
+    color: #fff;
+}
+
